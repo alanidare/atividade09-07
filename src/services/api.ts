@@ -1,5 +1,5 @@
 import axios from 'axios';
-import {ViaCEPResponse} from '../types/cep'
+import type {ViaCEPResponse} from '../types/cep'
 
 export const api = axios.create({
   baseURL: 'https://viacep.com.br/ws/',
