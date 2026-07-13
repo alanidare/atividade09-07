@@ -1,3 +1,5 @@
+
+
 export interface ViaCEPResponse {
   cep: string;
   logradouro: string;
@@ -7,4 +9,3 @@ export interface ViaCEPResponse {
   uf: string;
   erro?: boolean; 
 }
-
