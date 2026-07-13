@@ -1,7 +1,6 @@
 // vai ter a tela principal (Input, Botão, Loading)
 
 
-import { StatusBar } from 'expo-status-bar';
 import { useEffect, useState } from 'react';
 
 
