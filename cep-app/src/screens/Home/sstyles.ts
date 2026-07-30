@@ -9,7 +9,7 @@ export const sstyles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     padding: 100,
-    backgroundColor: '#522c2c',
+    backgroundColor: '#e3dbff',
     width: '100%',
 
   
@@ -25,7 +25,7 @@ export const sstyles = StyleSheet.create({
   input: {
     justifyContent: 'center',
     borderWidth: 1,
-    borderColor: '#ccc',
+    borderColor: '#160052',
     borderRadius: 8,
     padding: 12,
     fontSize: 16,
