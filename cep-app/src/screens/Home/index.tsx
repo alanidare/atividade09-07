@@ -22,7 +22,7 @@ export function Home() {
 
   async function buscarCep() {
 
-    // não procura se não tiver os 8 n°s
+    // não procura se não tiver  8 n°s digitados
     if (cep.length !== 8) {
       return;
     }

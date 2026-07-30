@@ -12,7 +12,8 @@ interface AddressInfoProps {
 }
 
 export function AddressInfo({ data }: AddressInfoProps) {
-  // Nenhum CEP consultado ainda: não renderiza nada
+  // Se o  CPF não for consultado, não vai aparecer nada
+  
   if (!data) {
     return null;
   }
