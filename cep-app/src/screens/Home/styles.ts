@@ -28,13 +28,23 @@ export const sstyles = StyleSheet.create({
     padding: 14,
     borderRadius: 8,
     alignItems: 'center',
+    display: 'flex',
+
   },
   buttonDisabled: {
-    backgroundColor: '#a0c4f5',
+   backgroundColor: '#a0c4f5',
+  display: 'flex',
+
   },
   buttonText: {
     color: '#fff',
     fontWeight: 'bold',
     fontSize: 16,
+    display: 'flex',
+
+    
+
+    
+
   },
 });
