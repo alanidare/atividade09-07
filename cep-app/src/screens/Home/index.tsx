@@ -5,7 +5,7 @@ import { View,Text, TextInput, TouchableOpacity, ActivityIndicator,} from 'react
 import { api } from '../../services/api';
 import { AddressInfo } from '../../components/AddressInfo';
 import { ViaCEPResponse } from '../../types/cep';
-import { sstyles } from './styles';
+import { sstyles } from './sstyles';
 
 export function Home() {
   const [cep, setCep] = useState('');
@@ -72,8 +72,8 @@ export function Home() {
         </Text>
       </TouchableOpacity>
 
-      {/* probloading aparecer durante a busca */}
-      {loading && <ActivityIndicator size="large" color="#007AFF" style={{ marginTop: 20 }} />}
+      {/* o loading aparecer durante a busca */}
+      {loading && <ActivityIndicator size="large" color="#9977f7" style={{ marginTop: 20 }} />}
 
       {/* passando dados pra props */}
 {!loading && <AddressInfo data={endereco} />}
