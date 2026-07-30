@@ -12,7 +12,7 @@ export function Home() {
   const [loading, setLoading] = useState(false);
   const [endereco, setEndereco] = useState<ViaCEPResponse | null>(null);
 
-  function handleChangeCep(text: string) {
+  function handleChangeCep(text: string) { //pq ta string?
 
 
       //Só deixa por 8 números --> mexer pra um comando que eu saiba fazer. Tendi nada dessa joça

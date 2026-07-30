@@ -16,11 +16,3 @@ async function buscarCEP(cep:string){
 }
 buscarCEP(cepNumber)
 
-//criar input pra chamar no lugar cepNumber <---------------------------------------------
-
-/*function buscarCEP(){
-  post =[];
-
-  fetch( 'https://viacep.com.br/ws/' + cep + 'json/')
-  .then ()
-}*/
