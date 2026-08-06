@@ -44,17 +44,19 @@ export function Home() {
         erro: true,
       });
     } finally {
-      setLoading(false);
+      setTimeout(() => {
+        setLoading(false); 
+      }, 500 );
     }
   }
 
   return (
     <View style={sstyles.container}>
-      <Text style={sstyles.title}>Consulta de CEP</Text>
+      <Text style={sstyles.title}>Consulte o seu CEP!</Text>
 
       <TextInput
         style={sstyles.input}
-        placeholder="Digite o CEP (somente números)"
+        placeholder="Digite o seu CEP :)"
         keyboardType="numeric"
         maxLength={8}
         value={cep}
@@ -63,11 +65,11 @@ export function Home() {
 
       {/*  botão desaparece durante o loading */}
       <TouchableOpacity
-        style={[sstyles.button, loading && sstyles.buttonDisabled]}
+        style={[sstyles.button, loading && sstyles.botaoDesativado]}
         onPress={buscarCep}
         disabled={loading || cep.length !== 8}
       >
-        <Text style={sstyles.buttonText}>
+        <Text style={sstyles.textoBotao}>
           {loading ? 'Buscando...' : 'Buscar'}
         </Text>
       </TouchableOpacity>

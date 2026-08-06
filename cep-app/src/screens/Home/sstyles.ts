@@ -6,6 +6,7 @@ export const sstyles = StyleSheet.create({
 
   container: {
     flex: 1,
+    borderColor: '#160052',
     justifyContent: 'center',
     alignItems: 'center',
     padding: 100,
@@ -23,13 +24,14 @@ export const sstyles = StyleSheet.create({
     textAlign: 'center',
   },
   input: {
+    alignItems: 'center',
     justifyContent: 'center',
-    borderWidth: 1,
     borderColor: '#160052',
     borderRadius: 8,
     padding: 12,
     fontSize: 16,
     marginBottom: 12,
+    backgroundColor: 'white',
     
 
   },
@@ -41,12 +43,12 @@ export const sstyles = StyleSheet.create({
    justifyContent: 'center',
 
   },
-  buttonDisabled: {
+  botaoDesativado: {
    backgroundColor: '#8259c9',
   display: 'flex',
 
   },
-  buttonText: {
+  textoBotao: {
     color: '#fff',
     fontWeight: 'bold',
     fontSize: 16,

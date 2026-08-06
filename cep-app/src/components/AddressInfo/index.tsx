@@ -21,7 +21,7 @@ export function AddressInfo({ data }: AddressInfoProps) {
   if (data.erro) {
     return (
       <View style={styles.container}>
-        <Text style={styles.errorText}>CEP não encontrado.</Text>
+        <Text style={styles.errorText}>CEP não encontrado! :(</Text>
       </View>
     );
   }
