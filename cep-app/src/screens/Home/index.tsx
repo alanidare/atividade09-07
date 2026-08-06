@@ -15,7 +15,6 @@ export function Home() {
   function handleChangeCep(text: string) { //pq ta string?
 
 
-      //Só deixa por 8 números --> mexer pra um comando que eu saiba fazer. Tendi nada dessa joça
     const apenasNumeros = text.replace(/[^0-9]/g, '');
     setCep(apenasNumeros.slice(0, 8));
   }
